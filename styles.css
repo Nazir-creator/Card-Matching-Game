@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+#timer {
+    color: whitesmoke;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.container{
+    margin-top: 40px;
+}
+#audio {
+    margin: auto;
+    display: flex;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+button {
+    background-color: white;
+    padding: 10px;
+}
+#audio {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.grid {
+    margin: auto;
+    height: 450px;
+    width: 500px;
+}
+#match {
+    font-size: 3rem;
+    padding: 2rem;
+    font-style: monospace;
+}
+
+img{
+    padding: 0.4rem;
+    height: 100px;
+    width: 100px;
+}
+
